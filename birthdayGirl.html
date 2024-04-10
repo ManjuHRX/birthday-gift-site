@@ -1,0 +1,155 @@
+<html>
+
+<head>
+    <title>Birthday Wish</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Orbitron&display=swap" rel="stylesheet">
+    <style>
+        body {
+            text-align: center;
+            font-family: "Happy Monkey", system-ui;
+            font-weight: 400;
+            font-style: normal;
+            background: linear-gradient(skyblue,pink);
+            color: white;
+            text-shadow: 0px 0px 2px black;
+        }
+
+        .bff-img {
+            height: 150px;
+            width: 150px;
+            border-radius: 50%;
+            border: 3px solid pink;
+        }
+
+       #bday-date{
+        background: pink;
+        padding: 5px 10px;
+        border: none;
+        border-radius: 8px ;
+        margin: 5px 0 10px 0;       
+       }
+       #bday-age{
+        margin: 0;
+        background: pink;
+        padding: 5px 10px;
+        border: none;
+        border-radius: 8px ;
+       }
+        .header{
+            display: flex;
+            flex-direction: column;
+           /* justify-content: center; optional */
+            align-items: center;
+        
+    }
+    .gift-section{
+        margin-top: 50px;
+    }
+    .gift-title{
+        margin-bottom: 10px;
+    }
+    .gift-img{
+        background-image: url("Image/gift2.jpg");
+        background-size: cover;       
+        border: 6px solid white;
+        border-radius: 10px;
+        height: 400px;
+        width: 400px;
+       margin: 0 auto;
+    }
+   
+    #g1:hover{
+        background-image: url("Image/universe.jpg");
+        background-size: cover;
+        height: 450px;
+        width: 450px;
+
+    }
+    #g2:hover{
+        background-image: url("Image/spacex.jpg");
+        background-size: cover;
+        height: 450px;
+        width: 450px;
+
+    }
+    #g3:hover{
+        background-image: url("Image/blackhole.gif");
+        background-size: cover;
+        height: 450px;
+        width: 450px;
+
+    }
+    #g4:hover{
+        background-image: url("Image/spacex.jpg");
+        background-size: cover;
+        height: 450px;
+        width: 450px;
+
+    }
+    #g5{
+        height: 200px;
+    }
+    #g5:hover{
+        background-image: url("Image/spacex.jpg");
+        background-size: cover;
+        height: 200px;
+        width: 450px;
+
+    }
+    .footer{
+        font-style: italic;
+        margin-top: 80px;
+    }
+    a{
+        color: wheat;
+    }
+    </style>
+    
+</head>
+
+<body>
+    <div class="header">
+        <h1>Today is Pradnya's Birthday</h2>
+            <img class="bff-img"
+                src="C:\Users\wwwsh\Pictures\iCloud Photos\Photos\8743d5a2-a9eb-4d68-bd83-c8b93b2e770b.jpg"
+                alt="BirthDay Photo">
+            <h2 id="bday-date">20-08-2024</h2>
+            <h5 id="bday-age">30 Years old</h5>
+    </div>
+    <div class="gift-section">
+        <h1 class="gift-title">Here's how happy i am for you today</h1>
+        <h3 class="gift-hint">hover over the gift</h3>
+        <!--<img class ="gift-img" src="Image/universe.jpg" alt="gift1">-->
+        <div class ="gift-img" id="g1">
+        </div>
+    </div>
+    <div class="gift-section">
+        <h1 class="gift-title">How pepole react on your birthday</h1>
+        <div class ="gift-img" id="g2">
+        </div>
+    </div>
+    <div class="gift-section">
+        <h1 class="gift-title">If i had to describe in one word</h1>
+        <div class ="gift-img" id="g3">
+        </div>
+    </div>
+    <div class="gift-section">
+        <h1 class="gift-title">The only Person badass as you</h1>
+        <div class ="gift-img" id="g4">
+        </div>
+    </div>
+    <div class="gift-section" >
+        <h1 class="gift-title">This one is for you my friend</h1>
+        <div class ="gift-img" id="g5">
+        </div>
+    </div>
+    <div class="footer">
+        <h1>Want to create your own Birthday GIFt site ?</h1>
+        <h2> <a href="#" target="_blank">take this HTML & CSS course</a></h2>
+
+    </div>
+</body>
+
+</html>
